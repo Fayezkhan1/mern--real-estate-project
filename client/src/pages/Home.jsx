@@ -78,7 +78,7 @@ export default function Home() {
       <div className='flex flex-col p-4 md:p-18 mt-20 px-2 max-w-6xl mx-auto mt-7'>
       <img
             src={img}
-            alt="Your Alt Text"
+            alt="blob picture"
             className="w-full h-auto max-w-[400px] mx-auto md:ml-auto"
           />
   </div>
