@@ -2,7 +2,8 @@ import React from 'react'
 import { FaLinkedin, FaCode } from 'react-icons/fa';
 export default function Footer() {
   return (
-    <footer className='bg-gray-800 text-white p-4 '>
+    // <footer className=' bg-gray-800 text-white p-4 '>
+    <footer style={{ backgroundColor: '#333', color: 'white', padding: '10px', marginTop: 'auto' }}>
         <div className='flex flex-row justify-center'>
             <FaCode className='mt-2'/>
 

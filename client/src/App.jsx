@@ -13,7 +13,9 @@ import UpdateListing from './pages/UpdateListing';
 import Listing from './pages/Listing';
 export default function App() {
   return <BrowserRouter>
+  
   <Header />
+  
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/sign-in" element={<Signin />}/>
@@ -30,7 +32,9 @@ export default function App() {
             element={<UpdateListing />}
           />
       <Route path="/about" element={<About/>}/>
+      
     </Routes>
-    <Footer/>
+    <Footer className="h-screen"/>
   </BrowserRouter>
+  
 }

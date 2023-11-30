@@ -46,7 +46,9 @@ export default function SignIn() {
       
     }
   return (
-    <div className='p-3 max-w-lg mx-auto'>
+    
+    <div style={{ height:'83.2vh' }}>
+    <div className='p-3  max-w-lg mx-auto flex flex-col justify-between '>
         <h1 className='text-3xl text-center font-semibold my-7'>Sign In</h1>
         <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
           
@@ -55,7 +57,7 @@ export default function SignIn() {
             <button  className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80'>Sign In</button>
             <OAuth/>
         </form>
-        <div className='flex gap-2 mt-5'>
+        <div className='flex gap-2 mt-5 '>
             <p>Dont have an account?</p>
             <Link to={"/sign-up"}>
                 <span className='text-blue-700'>Sign up</span>
@@ -63,5 +65,9 @@ export default function SignIn() {
         </div>
         {error && <p className='text-red-500 mt-5'>{error}</p>}
     </div>
+    </div>
+    
+        
+    
   )
 }
