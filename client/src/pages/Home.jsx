@@ -75,7 +75,7 @@ export default function Home() {
         </Link>
         
       </div>
-      <div className='flex flex-col p-4 md:p-18 mt-20 px-2 max-w-6xl mx-auto mt-7'>
+      <div className='flex flex-col p-5 md:p-18 mt-20 px-2 max-w-6xl mx-auto mt-7'>
       <img
             src={img}
             alt="blob picture"
