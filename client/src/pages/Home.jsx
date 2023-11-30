@@ -50,7 +50,7 @@ export default function Home() {
     <div>
       {/* top */}
       <div className='flex'>
-      <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
+      <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto mt-3'>
       
         <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
           Find your next <span className='text-slate-500'>perfect</span>
@@ -75,11 +75,12 @@ export default function Home() {
         </Link>
         
       </div>
-      <div className='flex flex-col p-5 md:p-18 mt-20 px-2 max-w-6xl mx-auto mt-7'>
+      <div className='flex flex-col p-5 md:p-18 mt-22 px-2 max-w-6xl mx-auto mt-7'>
       <img
             src={img}
             alt="blob picture"
-            className="w-full h-auto max-w-[400px] mx-auto md:ml-auto"
+            className="w-full h-auto max-w-[400px] mx-auto md:ml-auto  sm:ml-auto sm:mt-19"
+            style={{ marginTop: '33px', '@media (min-width: 400px)': { marginTop: '55px' } }}
           />
   </div>
       </div>
